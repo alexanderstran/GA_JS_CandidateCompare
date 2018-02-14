@@ -47,6 +47,11 @@ body {
 	margin: 10px;
 }
 
+.rownames {
+	margin-top: 170px;
+}
+}
+
 .faded {
 	opacity: .4;
 }
