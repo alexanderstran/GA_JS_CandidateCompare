@@ -81,6 +81,12 @@
 div h3 {
     text-align: center;
 }
+
+.greyout {
+    opacity: .4;
+}
+
+
 /*
 .popup-container {
 	display: block;

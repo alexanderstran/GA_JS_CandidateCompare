@@ -24,6 +24,7 @@ const render = (container, myState) => {
 	}
 	else {
 		container.style.display = 'flex';
+		
 	}
 }
 
