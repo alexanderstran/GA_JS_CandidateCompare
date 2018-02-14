@@ -86,7 +86,9 @@ div h3 {
     opacity: .4;
 }
 
-
+footer {
+    height: 300px;
+}
 /*
 .popup-container {
 	display: block;
