@@ -1,0 +1,104 @@
+/* CURRENTLY IN: styles/main.css */
+
+.alltoggles {
+    display: flex;
+    margin: 40px 400px 40px 565px;
+}
+
+.issueselector {
+    display: inline-block;
+    padding: 20px;
+    margin: 20px;
+}
+
+.contentarticles {
+    display: flex;
+}
+
+
+.topheader {
+    margin-top: 80px;
+    text-align: center;
+}
+.subheader {
+    margin: 20px 420px 20px 420px;
+}
+
+.instructions {
+    width: 350px;
+    margin: 0 auto;
+}
+
+.candidates {
+    margin-left: 138px;
+}
+.candidate {
+    display: inline-block;
+    padding: 10px 85px 10px 85px;
+}
+
+.issue_display {
+    display: flex;
+    margin-left: 230px;
+}
+
+.issue {
+    padding: 10px;
+}
+
+.issueselector {
+    padding: 20px;
+}
+.pov {
+    width: 200px;
+    height: 120px;
+    background-color: #cbeaff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.rows {
+    width: 100px;
+    height: 120px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.rownames {
+    margin-top: 80px;
+}
+}
+
+.faded {
+    opacity: .4;
+}
+
+.inactive {
+    display: none;
+}
+
+div h3 {
+    text-align: center;
+}
+/*
+.popup-container {
+	display: block;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.popup-content {
+	width: 50%;
+	height: 50%;
+	background-color: white;
+}
+
+*/

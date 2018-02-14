@@ -1,24 +1,20 @@
+<!doctype html>
 <html>
-
-
 <head>
-  <title>
-    Congress Compare
-  </title>
-<meta charset="utf-8">
-<link rel="stylesheet" href="normalize.css">
-<link rel="stylesheet" href="main.css">
+	<meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0;'>
+    <title>API(s)</title>
+    <link rel='stylesheet' href='styles/normalize.css'>
+    <link rel='stylesheet' href='styles/main.css'>
 </head>
-<header>
-<div class="topheader">
+<body>
+
+<body>
+  <div class="topheader">
 <h1>
   Congress Compare
 </h1>
 </div>
-</header>
-
-
-<body>
 <div class="subheader">
 <h3>
   Nov. 8th 2018, vote. Mad about politics? Do something about it. Here are some candidates for WA State, District 8. 
@@ -28,6 +24,27 @@
   <p>
   Select candidates below to see a side-by-side comparison of their background and where they stand on the issues. 
 </p>
+</div>
+
+<div class="alltoggles">
+
+	<div class="js-toggle">  <div class="issue_selector hader">
+    <img class="js-headshot" src="images/hader_headshot.png" alt="Shannon Hader">
+    <h5>Shannon Hader (D)</h5>
+  </div></div>
+
+
+  <div class="js-toggle1">  <div class="issue_selector rossi">
+    <img class="headshot" src="images/rossi_headshot.png" alt="Dino Rossi">
+    <h5>Dino Rossi (R)</h5>
+   </div></div>
+
+<div class="js-toggle2">
+  <div class="issue_selector schrier">
+    <img class="headshot" src="images/schrier_headshot.png" alt="Kim Schrier">
+    <h5>Kim Schrier (D)</h5>
+  </div></div>
+
 </div>
 
 
@@ -46,50 +63,77 @@
   </div>
 </div>
 
-<div class="issue hader">
-  <div class="issue_selector hader">
-    <img class="headshot" src="images/hader_headshot.png" alt="Kim Schrier">
-    <h5>Shannon Hader (D)</h5>
-  </div>
-  <div class="contentcards hader">
+<div class="contentarticles">
+<!-- SHANNON -->
+
+
+
+	<div class="js-popup-container popup-container">
+		<div class="popup-content">
+		  <div class="js-contentcards hader">
+<h3> Hader </h3>
   <div class="pov hader_immigration">
+  	<p>Unknown</p>
   </div>
   <div class="pov hader_environment">
+  	<p>Unknown</p>
   </div>
   <div class="pov hader_experience">
+  	<p>Former head of HIV research at the CDC</p>
   </div>
   </div>
-</div>
+		</div>
+	</div>
 
-<div class="issue rossi">
-   <div class="issue_selector rossi">
-    <img class="headshot" src="images/rossi_headshot.png" alt="Dino Rossi">
-    <h5>Dino Rossi (R)</h5>
-   </div>
-   <div class="contentcards rossi">
+<!-- ROSSI -->
+
+
+
+
+<div class="js-popup-container1 popup-container1">
+		<div class="popup-content1">
+
+<div class="contentcards rossi">
+	<h3> Rossi </h3>
   <div class="pov rossi_immigration">
+  	<p>Refuses to comment</p>
   </div>
   <div class="pov rossi_environment">
   </div>
   <div class="pov rossi_experience">
+  	<p>Was last a WA State Assemblymember for District 45, businessman.</p>
   </div>
   </div>
-  </div>
-<div class="issue schrier">
-  <div class="issue_selector schrier">
-    <img class="headshot" src="images/schrier_headshot.png" alt="Kim Schrier">
-    <h5>Kim Schrier (D)</h5>
-  </div>
-  <div class="contentcards schrier">
+
+</div>
+</div>
+
+<!-- SCHRIER-->
+
+
+
+ <div class="js-popup-container2 popup-container1">
+		<div class="popup-content2">
+<div class="contentcards schrier">
+	<h3> Schrier </h3>
    <div class="pov schrier_immigration">
+   	<p>Supports DACA, Dream Act, and pathways to citizenship for immigrants. </p>
   </div>
   <div class="pov schrier_environment">
+  	<p> Believes in climate change and is a support of Alliance for Clean Energy Jobs</p>
   </div>
   <div class="pov schrier_experience">
-  </div>
+  	<p>Stanford and Berkeley trained pediatrician. </p>
   </div>
   </div>
 </div>
 </div>
+
+</div>
+<!-- SCRIPTS -->
+
+
+    <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'></script>
+    <script src='javascript/main.js'></script>
 </body>
 </html>
