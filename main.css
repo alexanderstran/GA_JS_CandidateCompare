@@ -9,16 +9,48 @@ body {
 	margin: 20px 420px 20px 420px;
 }
 
+.instructions {
+	width: 350px;
+	margin: 0 auto;
+}
+
+.candidates {
+	margin-left: 138px;
+}
 .candidate {
 	display: inline-block;
-	padding: 10px;
+	padding: 10px 85px 10px 85px;
+}
+
+.issue_display {
+	display: flex;
+	margin-left: 230px;
 }
 
 .issue {
-	display: inline-block;
 	padding: 10px;
 }
 
-.inactive {
+.pov {
+	width: 200px;
+	height: 120px;
+	background-color: #cbeaff;
+	padding: 20px;
+	margin: 10px;
+	border-radius: 10px;
+}
+
+.rows {
+	width: 100px;
+	height: 120px;
+	padding: 20px;
+	margin: 10px;
+}
+
+.faded {
 	opacity: .4;
+}
+
+.inactive {
+	display: none;
 }
